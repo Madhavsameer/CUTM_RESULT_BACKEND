@@ -5,7 +5,7 @@ const cors = require('cors');
 
 // Create Express app
 const app = express();
-app.use(cors({ origin: 'https://cutm-result-frontend.onrender.com/' }));
+app.use(cors({ origin: 'https://cutm-result-frontend.onrender.com' }));
 
 // Connect to MongoDB
 connectDB();
