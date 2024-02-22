@@ -5,7 +5,7 @@ const cors = require('cors');
 
 // Create Express app
 const app = express();
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: 'https://cutmresult.netlify.app' }));
 
 // Connect to MongoDB
 connectDB();
